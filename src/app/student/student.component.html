@@ -1,0 +1,22 @@
+<br>
+<table>
+  <tr >
+    <th>Roll</th>
+    <th>Name</th>
+    <th>Branch</th>
+    <th>Email</th>
+    <th>Year</th>
+    <th>Action</th>
+  </tr>
+  <tr *ngFor="let d of resdata">
+    <td>{{d.rollNumber}}</td>
+    <td>{{d.name}}</td>
+    <td>{{d.branch}}</td>
+    <td>{{d.emailId}}</td>
+    <td>{{d.year}}</td>
+    <td><button>Edit</button>
+        <button>View</button>
+        <button>Del</button>
+    </td>
+  </tr>
+</table>

@@ -1,0 +1,163 @@
+{
+	"students": [{
+			"rollNumber": "634437673bc0eed27acf4a64",
+			"name": "Ashwin",
+			"branch": "CSE",
+			"emailId": "ashwin@test.com",
+			"year": "2016",
+			"books": [{
+				"id": 1,
+				"name": "Obsessive Genius"
+			}]
+		},
+		{
+			"rollNumber": "634437673bc0eed27acfha64",
+			"name": "Shreyas",
+			"branch": "ISE",
+			"emailId": "shreyas@test.com",
+			"year": "2019",
+			"books": []
+		},
+		{
+			"rollNumber": "634437673bw0eed27acfha64",
+			"name": "Akshay",
+			"branch": "ECE",
+			"emailId": "akshay@test.com",
+			"year": "2020",
+			"books": [{
+				"id": 1,
+				"name": "Romeo & Juliet"
+			}]
+		},
+		{
+			"rollNumber": "634237673bw0eed27acfha64",
+			"name": "Dhanush",
+			"branch": "ISE",
+			"emailId": "dhanush@test.com",
+			"year": "2022",
+			"books": [{
+				"id": 1,
+				"name": "The Great Gatsby"
+			}]
+		},
+		{
+			"rollNumber": "634237673bw0eed2acfha64",
+			"name": "Anjan",
+			"branch": "ECE",
+			"emailId": "anjan@test.com",
+			"year": "2023",
+			"books": []
+		},
+		{
+			"rollNumber": "634237973bw0eed2acfha64",
+			"name": "Suresh",
+			"branch": "ISE",
+			"emailId": "suresh@test.com",
+			"year": "2023",
+			"books": []
+		},
+		{
+			"rollNumber": "638237973bw0eed2acfha64",
+			"name": "Shashank",
+			"branch": "ISE",
+			"emailId": "shashank@test.com",
+			"year": "2013",
+			"books": []
+		},
+		{
+			"rollNumber": "638237973bwieed2acfha64",
+			"name": "Indresh",
+			"branch": "ISE",
+			"emailId": "indresh@test.com",
+			"year": "2033",
+			"books": [{
+				"id": 1,
+				"name": "Invaluable"
+			}]
+		},
+		{
+			"rollNumber": "638237873bwieed2acfha64",
+			"name": "Yamuna",
+			"branch": "ISE",
+			"emailId": "yamuna@test.com",
+			"year": "2083",
+			"books": []
+		},
+		{
+			"rollNumber": "638237923bwieed2acfha64",
+			"name": "Sudharshan",
+			"branch": "ISE",
+			"emailId": "sudharshan@test.com",
+			"year": "2013",
+			"books": []
+		}
+	],
+	"books": [{
+			"name": "Obsessive Genius",
+			"author": "Marie Curie",
+			"genre": "Chemistry",
+			"assigned":"yes"
+		},
+		{
+			"name": "Invaluable",
+			"author": "Maya Grossman",
+			"genre": "Business",
+			"assigned":"yes"
+		},
+		{
+			"name": "To Kill a Mockingbird",
+			"author": "Harper Lee",
+			"genre": "English",
+			"assigned":"no"
+		},
+		{
+			"name": "Fahrenheit 451",
+			"author": "Ray Bradbury",
+			"genre": "Science",
+			"assigned":"no"
+		},
+		{
+			"name": "The Great Gatsby",
+			"author": "Fitzgerald",
+			"genre": "Fiction",
+			"assigned":"yes",
+			"assigned":"no"
+		},
+		{
+			"name": "East of Eden",
+			"author": "John Steinbeck",
+			"genre": "Drama",
+			"assigned":"no"
+		},
+		{
+			"name": "Romeo and Juliet",
+			"author": "William Shakespeare",
+			"genre": "Tragedy",
+			"assigned":"yes"
+		},
+		{
+			"name": "The Catcher in the Rye",
+			"author": "J.D. Salinger",
+			"genre": "Story",
+			"assigned":"no"
+		},
+		{
+			"name": "Lord of the Flies",
+			"author": "William Golding",
+			"genre": "Adventure",
+			"assigned":"no"
+		},
+		{
+			"name": "Hiroshima",
+			"author": "John Hersey",
+			"genre": "War",
+			"assigned":"no"
+		}
+
+	],
+	"config": {
+		"noOfStudentsPerPage": 5,
+		"noOfBooksPerPage": 5,
+		"noOfBooksPerStudent": 1
+	}
+}

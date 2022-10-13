@@ -1,0 +1,26 @@
+table{
+  position: absolute;
+  z-index: 2;
+  left: 50%;
+  transform: translate(-50%);
+  display: inline;
+  margin: auto;
+  /* width: 60%; */
+  border-collapse: collapse;
+  border-spacing: 0;
+  text-align: center;
+  border-radius: 12px 12px 0 0;
+  overflow: hidden;
+  box-shadow: 0 2px 12px rgba(32,32,32,0.3);
+}
+th{
+  background: #404040;
+  color: #fafafa;
+  text-transform: uppercase;
+}
+th,td{
+  padding: 5px 15px;
+}
+tr:nth-child(odd){
+  background-color: #eeeeee;
+}
