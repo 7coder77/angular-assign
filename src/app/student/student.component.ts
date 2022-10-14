@@ -19,4 +19,11 @@ export class StudentComponent implements OnInit {
       this.resdata=res;
     })
   }
+  deldata(data:any){
+    this.api.deletestudent(data.rollnumber).subscribe(res=>{
+      alert("data deleted successfully😅😅😅");
+      this.getlocaldata();
+    },
+    err=>console.error(err))
+  }
 }
